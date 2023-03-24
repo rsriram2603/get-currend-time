@@ -1,5 +1,5 @@
 let a=new Date();
-	let res=a.getTime();
+	let res=a.getHours();
 	if(res>=6 && res<=11)
 	{
 		console.log("mornimg");
